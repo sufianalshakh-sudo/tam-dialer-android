@@ -17,7 +17,7 @@ jobs:
       - name: Extract Tam Dialer project
         run: |
           mkdir project
-          unzip -q tam_dialer_android_v1.zip -d project
+          unzip -q tam_dialer_android_v2.zip -d project
 
       - name: Enable AndroidX
         run: |
